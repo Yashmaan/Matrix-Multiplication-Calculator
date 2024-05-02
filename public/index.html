@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Matrix Multiplication Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Main heading -->
+        <h1>Matrix Multiplication Calculator</h1>
+
+        <!-- Image related to matrix multiplication -->
+        <div class="matrix-image">
+            <img src="Matrix_multiplication.png" alt="Matrix Multiplication" style="width: 500px;">
+        </div>
+
+        <!-- Note for matrix multiplication requirements -->
+        <p><b>Note:-</b> For matrix multiplication, the number of columns in the first matrix must be equal to the number of rows in the second matrix. The result matrix has the number of rows of the first and the number of columns of the second matrix.</p>
+        
+        <!-- Input section for matrix sizes -->
+        <h3>Select the Matrix Size</h3>
+        <div class="input-container">
+            <div class="matrix1">
+                <label for="rows1"> (Matrix 1)Rows:</label>
+                <input type="number" id="rows1" min="1">
+                <span class="x-sign">X</span>
+                <label for="cols1">(Matrix 1)Columns:</label>
+                <input type="number" id="cols1" min="1">
+            </div>
+            <div class="matrix1">
+                <label for="rows2"> (Matrix 2)Rows:</label>
+                <input type="number" id="rows2" min="1">
+                <span class="x-sign">X</span>
+                <label for="cols2"> (Matrix 2)Columns:</label>
+                <input type="number" id="cols2" min="1">
+            </div>
+        
+            <!-- Button to generate matrices -->
+            <div class="generate-button">
+                <button onclick="getMatrixSize()">Generate Matrices</button>
+            </div>
+        </div>
+
+        <!-- Div to display matrix inputs -->
+        <div id="matrixInputs"></div>
+
+        <!-- Div to display result of matrix multiplication -->
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

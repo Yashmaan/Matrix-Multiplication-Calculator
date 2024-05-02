@@ -1,0 +1,107 @@
+.matrix-image {
+    text-align: center; /* Center the image */
+    margin-top: 20px; /* Add margin from the top */
+}
+
+.matrix-image img {
+    max-width: 100%; /* Ensure the image does not exceed its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h3 {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.input-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-container div {
+    margin-right: 10px;
+}
+
+.input-container label {
+    margin-right: 5px;
+}
+
+.input-container .x-sign {
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+input[type="number"],
+button {
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px; /* Larger padding for a bigger button */
+    font-size: 18px; /* Larger font size */
+    margin-top: 30px; /* Distance from the top */
+}
+
+.generate-button button {
+    padding: 10px 20px; /* Larger padding for a bigger button */
+    font-size: 18px; /* Larger font size */
+    margin-top: 30px; /* Distance from the top */
+}
+
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
